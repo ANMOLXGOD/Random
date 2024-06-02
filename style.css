@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 *,
 *::after,
 *::before {
@@ -27,7 +28,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  
 }
 
 .container .box {
@@ -35,8 +35,6 @@ body {
   width: 30rem;
   height: 30rem;
   margin: 4rem;
-  
-  
 }
 
 .container .box:hover .imgBox {
@@ -55,15 +53,13 @@ body {
   height: 100%;
   z-index: 2;
   transition: all 0.5s ease-in-out;
-  
 }
 
 .imgBox img {
-  width: 30rem;
-  height: 30rem;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  resize: both;
-  border-radius: 25px
+  border-radius: 25px;
 }
 
 .content {
@@ -80,7 +76,7 @@ body {
   align-items: flex-end;
   text-align: center;
   transition: 0.5s ease-in-out;
-  border-radius: 25px
+  border-radius: 25px;
 }
 
 .content h2 {
